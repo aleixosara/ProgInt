@@ -3,7 +3,7 @@ body {
 }
 
 nav {
-    background-color:rgb(165, 182, 141);
+    background-color:#f36b3c;
     text-align: center;
 }
 
@@ -42,7 +42,34 @@ nav {
     display: block;
 }
 
+img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 1500px;
+}
+
 h5 {
-    color: #333;
+    color: #959595;
     text-align: center;
+}
+
+h1 {
+    color: #f36b3c;
+    text-align: center;
+}
+
+.home {
+    background-color: #f36b3c;
+    list-style-type: none;
+    display: inline-flex;
+    display: block;
+}
+
+.home img {
+    width: 80px;
+    image-resolution: ;
+}
+
+.home h1 {
+    color: #f2f1f1;
 }
