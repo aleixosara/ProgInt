@@ -26,26 +26,61 @@ nav {
 }
 
 .menu li a:hover {
-    background-color:rgb(193, 207, 161);
+    background-color:#EF9651;
 }
 
 .submenu {
     display: none;
     position: absolute;
-    background-color:rgb(165, 182, 141);
+    background-color:#f36b3c;
     list-style-type: none;
     padding: 0;
     margin: 0;
+    width: 100%;
 }
 
 .menu li:hover .submenu {
     display: block;
 }
 
-/* .submenu li a {
-    padding: 10px 15px;
-} */
+img {
+    width: 1823px;
+}
 
-/* .submenu li a:hover {
-    background-color: aquamarine;
-} */
+h5 {
+    color: #959595;
+    text-align: center;
+}
+
+h1 {
+    color: #f36b3c;
+    text-align: center;
+}
+
+.home {
+    background-color: #f36b3c;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 20px;
+}
+
+.home img {
+    width: 80px;
+    align-items: center;
+}
+
+.home h1 {
+    color: #f2f1f1;
+}
+
+.home h5 {
+    color: #f2f1f1;
+}
+
+.home {
+    gap: 20px;
+}

@@ -47,37 +47,44 @@ img {
     width: 1823px;
 }
 
-h5 {
-    color: #959595;
-    text-align: center;
-}
-
 h1 {
     color: #f36b3c;
     text-align: center;
+    margin-top: 3%;
 }
 
-.home {
+h2 {
+    color: #f36b3c;
+    text-align: left;
+}
+
+h3 {
+    color: #f2f1f1;
+    text-align: left;
+}
+
+h4 {
+    color: #f2f1f1;
+    text-align: left;
+    margin: 2%;
+    text-align: justify;
+}
+
+.sobreNos {
     background-color: #f36b3c;
     list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 35px;
+    margin-right: 35px;
     border-radius: 20px;
-    gap: 20px;
 }
 
-.home img {
-    width: 80px;
-    align-items: center;
-}
-
-.home h1 {
+.sobreNos h1 {
     color: #f2f1f1;
 }
 
-.home h5 {
+.sobreNos h5 {
     color: #f2f1f1;
 }
