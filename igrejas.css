@@ -70,3 +70,12 @@ input[type="search"] {
     border-radius: 20px;
     border: 2px solid black;
 }
+
+input[type="search"]::placeholder {
+    color: #f36b3c;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
