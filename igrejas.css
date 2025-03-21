@@ -44,7 +44,7 @@ nav {
 }
 
 img {
-    width: 1823px;
+    max-width: 100%;
 }
 
 h1 {
@@ -68,7 +68,8 @@ input[type="search"] {
     width: 50%;
     height: 40px;
     border-radius: 20px;
-    border: 2px solid black;
+    border: 1px solid black;
+
 }
 
 input[type="search"]::placeholder {
@@ -78,4 +79,25 @@ input[type="search"]::placeholder {
 form {
     display: flex;
     justify-content: center;
+}
+
+button {
+    background-color: #f36b3c;
+    border-radius: 20px;
+    border: none;
+    color: #f2f1f1;
+    cursor: pointer;
+    
+}
+
+button:hover {background-color: #EF9651}
+
+.igrejas {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Alinha os itens verticalmente */
+    gap: 10px; /* Adiciona um espaço entre a barra e o botão */
+    margin-top: 20px;
+    width: 60%;
+    
 }

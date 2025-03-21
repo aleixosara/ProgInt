@@ -44,7 +44,7 @@ nav {
 }
 
 img {
-    width: 1823px;
+    max-width: 100%;
 }
 
 h5 {
@@ -63,8 +63,8 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
     border-radius: 20px;
     gap: 20px;
 }

@@ -44,7 +44,7 @@ nav {
 }
 
 img {
-    width: 1823px;
+    max-width: 100%;
 }
 
 h1 {
