@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Bar</title>
+    <title>Aviamento Bíblico</title>
     <link rel="stylesheet" href="igrejas.css">
 </head>
 <body>
@@ -26,11 +26,9 @@
         </nav>
     </header>
     <h1>ENCONTRE A IGREJA MAIS PERTO DE VOCÊ!</h1>
-    <div class="igrejas">
-    <form>
-        <input type="search" id="gsearch" name="gsearch" placeholder="Digite a cidade e clique  em BUSCAR">
-        </form>
-        <button type="button">BUSCAR</button>
-    </div>
+    <form action="https://maps.app.goo.gl/yrHyZrEb4GYcufh5A" method="get" target="_blank">
+        <input type="search" id="gsearch" name="gsearch" placeholder="Digite a cidade e clique em BUSCAR" required> 
+        <button type="submit">BUSCAR</button>
+    </form>
 </body>
 </html>

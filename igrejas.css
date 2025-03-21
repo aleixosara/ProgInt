@@ -43,33 +43,18 @@ nav {
     display: block;
 }
 
-img {
-    max-width: 100%;
-}
-
 h1 {
+    margin-top: 15%;
     text-align: center;
     color: #f36b3c;
 }
 
-.igrejas {
-    background-color: #f36b3c;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 35px;
-    margin-right: 35px;
-    border-radius: 20px;
-    gap: 20px;
-}
-
 input[type="search"] {
-    width: 50%;
+    width: 700px;
     height: 40px;
     border-radius: 20px;
     border: 1px solid black;
-
+    
 }
 
 input[type="search"]::placeholder {
@@ -79,6 +64,8 @@ input[type="search"]::placeholder {
 form {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 button {
@@ -87,17 +74,8 @@ button {
     border: none;
     color: #f2f1f1;
     cursor: pointer;
-    
+    height: 40px;
+    width: 100px;
 }
 
 button:hover {background-color: #EF9651}
-
-.igrejas {
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Alinha os itens verticalmente */
-    gap: 10px; /* Adiciona um espaço entre a barra e o botão */
-    margin-top: 20px;
-    width: 60%;
-    
-}
