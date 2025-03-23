@@ -47,18 +47,34 @@ nav {
 div {
     color: rgb(237, 232, 220);
     margin-right: 200px;
-    margin-left: 200px;
-    margin-top: 100px;
+    text-align: justify;
 }
 
 h4 {
     background-color: #f15a29;
     color: rgb(237, 232, 220);
-    margin-left: 35px;
-    margin-right: 35px;
     writing-mode: vertical-rl;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    padding: 15px;
 }
 
 .appIeab {
+    margin-top: 100px;
     display: flex;
+    align-items: center;
+}
+
+.buttons .primeiro {
+    margin-left: 470px;
+}
+
+.buttons {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
