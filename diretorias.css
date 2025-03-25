@@ -47,40 +47,18 @@ img {
     max-width: 100%;
 }
 
-h5 {
-    color: #959595;
-    text-align: center;
-}
-
 h1 {
-    color: #f36b3c;
-    text-align: center;
-}
-
-.home {
     background-color: #f36b3c;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
-    border-radius: 20px;
+    color: rgb(237, 232, 220);
+    margin-left: 10px;
+    margin-right: 1400px;
+    border-radius: 10px;
+    padding-left: 7px;
 }
 
-.home img {
-    width: 80px;
-    align-items: center;
-}
-
-.home h1 {
-    color: #f2f1f1;
-}
-
-.home h5 {
-    color: #f2f1f1;
-}
-
-.home {
-    gap: 20px;
+h3 {
+    margin-left: 11px;
+    margin-right: 20px;
+    text-align: justify;
+    color: #959595;
 }
